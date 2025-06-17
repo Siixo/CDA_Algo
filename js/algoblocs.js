@@ -67,7 +67,7 @@ down();
 forward(100);
 //OK */
 
-//Exercice 7:
+/* //Exercice 7:
 faceDown();
 forward(50);
 arcLeft(50,180);
@@ -78,4 +78,62 @@ down();
 forward(100);
 arcLeft(50,180);
 forward(50);
+//A peu près OK */
+
+/* //Exercice B1:
+for(let i = 0; i < 4; i++){
+    faceRight();
+    forward(50);
+    faceDown();
+    forward(50);
+}
+//OK */
+
+/* //Exercice B2:
+for(let i = 0; i < 4; i++){
+    faceUp();
+    forward(50);
+    faceRight();
+    forward(50);
+    faceDown();
+    forward(50);
+    faceRight();
+    forward(50);
+}
+//OK
+ */
+
+/* //Exercice B3:
+for(let i = 0; i < 4; i++){
+    forward(100);
+    right(90);
+} 
+//OK    
+*/
+
+/* //Exercice B4:
+for(let i = 0; i < 3; i++){
+    forward(50);
+    left(180-60);
+}
+//OK
+ */
+
+/* //Exercice 5:
+changeColor(color.green);
+faceUp();
+forward(50); */
+
+//Exercice C1:
+faceRight();
+let x = 0;
+    for(let i= 0; i < 4; i++){
+        for(let j = 0; j < 3; j++){
+            forward(50);
+            right(180-60);
+        }
+    forward(50);
+}
+
+
 
