@@ -2,7 +2,7 @@
 setPos(300,300);
 changeColor(color.blue);
 faceDown();
-setLineWidth(10);
+setLineWidth(1);
 
 /* //Exercice A1:
 forward(200);
@@ -124,7 +124,7 @@ changeColor(color.green);
 faceUp();
 forward(50); */
 
-//Exercice C1:
+/* //Exercice C1:
 faceRight();
 let x = 0;
     for(let i= 0; i < 4; i++){
@@ -134,6 +134,31 @@ let x = 0;
         }
     forward(50);
 }
+//OK */
+
+/* for(let i= 0; i < 4; i++){
+    for(let j = 0; j < 3; j++){
+        forward(50);
+        right(180-60);
+    }
+    forward(50);
+}
+ */
 
 
+//Exercice E1:
+function drawStar(size){
+    faceRight();
+    for(let i = 0; i < 8; i++){
+        forward(size);
+        right(180-45);
+    }
+    faceRight();
+}
+
+drawStar(50);
+forward(100);
+drawStar(50);
+forward(150);
+drawStar(50);
 
